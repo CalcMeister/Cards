@@ -1,0 +1,10 @@
+The outcome of games can be classified as one of n possible outcomes.
+Simulations across all starting decks will converge outcome probabilities for each of these states.
+
+In a perfectly skill-based game, these probabilities will not be affected by only simulating particular initial deck state.
+In a perfectly luck-based game, only one outcome state will occur when simulating games from a particular initial deck state.
+
+Most games fall somewhere in the middle.
+
+The objective is to create a metric that can empirically quantify the skill-based-ness of a game by looking at the probabilities of possible end states as initial decks change.
+This metric must be independent of the number of possible end states and the mean probabilities of them occurring.
